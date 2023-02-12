@@ -6,9 +6,9 @@ import {FaGitlab} from 'react-icons/fa';
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-      <a href='https://www.linkedin.com' target='_blank' rel='noreferrer'><BsLinkedin/></a>
-      <a href='https://www.github.com' target='_blank' rel='noreferrer'><BsGithub/></a>
-      <a href='https://www.gitlab.com' target='_blank' rel='noreferrer'><FaGitlab/></a>
+      <a href='https://www.linkedin.com/in/hafijulali' target='_blank' rel="noopener noreferrer"><BsLinkedin/></a>
+      <a href='https://www.github.com/HafijulAli' target='_blank' rel="noopener noreferrer"><BsGithub/></a>
+      <a href='https://www.gitlab.com/Hafijul_ali' target='_blank' rel="noopener noreferrer"><FaGitlab/></a>
     </div>
   );
 }
