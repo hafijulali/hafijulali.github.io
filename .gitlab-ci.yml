@@ -11,6 +11,7 @@ before_script:
 pages:
   stage: deploy
   script:
+    - echo "SKIP_PREFLIGHT_CHECK=true" > .env
     - npm run build
     - rm -rf public
     - mv build public
