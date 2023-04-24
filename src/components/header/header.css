@@ -41,11 +41,16 @@ header{
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
-  border-radius: 12rem 12rem 12rem 12rem;
+  border-radius: 12rem;
 }
 
 .header__profile > .image{
   border-radius: 100%;
+}
+
+.image:hover{
+  scale: 0.97;
+  transition: var(--transition);
 }
 
 .scroll__down{
