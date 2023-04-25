@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://hafijul.dev",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
@@ -20,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
   "browserslist": {
