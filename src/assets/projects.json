@@ -4,7 +4,7 @@
     "name": "OpenTodo",
     "description": "A Todo application that can save todos over cloud.",
     "image": "open-todo.png",
-    "demo": "https://www.opentodo.repl.co",
+    "demo": "https://hafijul.gitlab.io/open-todo",
     "source": "https://gitlab.com/Hafijul/open-todo"
   },
   {
@@ -12,7 +12,7 @@
     "name": "ByteAdvice",
     "description": "A simple application to get a random advice from remote advices api.",
     "image": "byte-advice.png",
-    "demo": "https://byteadvice.hafijul.repl.co",
+    "demo": "https://hafijul.gitlab.io/byte-advice",
     "source": "https://gitlab.com/Hafijul/byte-advice"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Alive",
     "description": "Project aggregator displaying list of other projects.",
     "image": "alive.png",
-    "demo": "https://apps.hafijul.dev",
-    "source": "https://gitlab.com/Hafijul/alive"
+    "demo": "https://apps--hafijul.repl.co",
+    "source": "https://gitlab.com/Hafijul/apps"
   }
 ]
