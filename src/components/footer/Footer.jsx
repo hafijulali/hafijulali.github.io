@@ -17,8 +17,8 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer__socials'>
-        <a href='https://instagram.com/hafijul.dev' target='_blank' rel='noopener noreferrer'><FiInstagram /></a>
-        <a href='https://telegram.me/Hafijul_ali' target='_blank' rel='noopener noreferrer'><RiTelegramLine /></a>
+        <a href='https://instagram.com/hafijuldev' target='_blank' rel='noopener noreferrer'><FiInstagram /></a>
+        <a href='https://telegram.me/hafijuldev' target='_blank' rel='noopener noreferrer'><RiTelegramLine /></a>
         <a href='https://www.linkedin.com/in/hafijulali' target='_blank' rel='noopener noreferrer'><AiOutlineLinkedin /></a>
         <a href='https://twitter.com/hafijuldev' target='_blank' rel='noopener noreferrer'><FiTwitter /></a>
       </div>

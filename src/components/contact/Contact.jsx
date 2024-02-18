@@ -40,7 +40,7 @@ const Contact = () => {
             <RiTelegramLine className='contact__option-icon' />
             <h4>Telegram</h4>
             <h5>Sheikh Hafijul Ali</h5>
-            <a href='https://telegram.me/Hafijul_ali' target="_blank" rel="noopener noreferrer">Send a Message</a>
+            <a href='https://telegram.me/hafijuldev' target="_blank" rel="noopener noreferrer">Send a Message</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon' />
