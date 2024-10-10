@@ -1,4 +1,4 @@
-nav{
+nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
   padding: 0.7rem 1.7rem;
@@ -13,7 +13,7 @@ nav{
   backdrop-filter: blur(3px);
 }
 
-nav a{
+nav a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -22,11 +22,11 @@ nav a{
   font-size: 1.1rem;
 }
 
-nav a:hover{
+nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
-nav a.active{
+nav a.active {
   background: var(--color-primary);
   color: var(--color-white);
 }

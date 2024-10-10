@@ -1,4 +1,3 @@
-import React from "react";
 import Buttons from "./Buttons";
 import profilepicture from "../../assets/profile-picture.jpg";
 import HeaderSocials from "./HeaderSocials";

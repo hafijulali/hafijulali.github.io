@@ -1,6 +1,5 @@
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 
 const Toast = () => {
   return (
@@ -14,9 +13,10 @@ const Toast = () => {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="light" />
+        theme="light"
+      />
     </>
   );
-}
+};
 
 export default Toast;

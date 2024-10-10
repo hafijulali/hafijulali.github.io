@@ -17,42 +17,43 @@
   background: transparent;
 }
 
-.portfolio__item-image{
+.portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
 }
 
-.portfolio__item h3{
-  margin: 1.2rem 0  2rem;
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
 }
-.portfolio__item h5{
+
+.portfolio__item h5 {
   margin: 0 0 1.2rem 0;
 }
 
-.portfolio__item-buttons{
+.portfolio__item-buttons {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
 }
 
-#card__image{
+#card__image {
   background-color: var(--color-bg);
   transition: var(--transition);
 }
 
-#card__image:hover{
-  background-color: var(--color-white)
+#card__image:hover {
+  background-color: var(--color-white);
 }
 
 @media screen and (max-width: 1024px) {
-  .portfolio__container{
+  .portfolio__container {
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .portfolio__container{
+  .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }

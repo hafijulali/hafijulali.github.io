@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "OpenContacts",
+    "description": "A Free and OpenSource contacts app that stores contact in private database.",
+    "image": "open-contacts.png",
+    "demo": "",
+    "source": "https://gitlab.com/hafijulali/opencontacts"
+  },
+  {
+    "id": 2,
     "name": "OpenTodo",
     "description": "A Todo application that can save todos over cloud.",
     "image": "open-todo.png",
@@ -8,19 +16,11 @@
     "source": "https://gitlab.com/hafijulali/open-todo"
   },
   {
-    "id": 2,
-    "name": "ByteAdvice",
-    "description": "A simple application to get a random advice from remote advices api.",
-    "image": "byte-advice.png",
-    "demo": "https://hafijulali.gitlab.io/byte-advice",
-    "source": "https://gitlab.com/hafijulali/byte-advice"
-  },
-  {
     "id": 3,
-    "name": "Alive",
+    "name": "AppStore",
     "description": "Project aggregator displaying list of other projects.",
     "image": "alive.png",
-    "demo": "https://apps.hafijul.dev",
+    "demo": "https://hafijulali.gitlab.io/apps",
     "source": "https://gitlab.com/hafijulali/apps"
   }
 ]
