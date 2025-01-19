@@ -17,9 +17,9 @@
   },
   {
     "id": 3,
-    "name": "AppStore",
+    "name": "Apps",
     "description": "Project aggregator displaying list of other projects.",
-    "image": "alive.png",
+    "image": "apps.png",
     "demo": "https://hafijulali.gitlab.io/apps",
     "source": "https://gitlab.com/hafijulali/apps"
   }
