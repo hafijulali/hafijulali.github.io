@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "OpenContacts",
+    "description": "A Free and OpenSource contacts app that stores contact in private database.",
+    "image": "open-contacts.png",
+    "demo": "",
+    "source": "https://gitlab.com/hafijulali/opencontacts"
+  },
+  {
+    "id": 2,
+    "name": "OpenTodo",
+    "description": "A Todo application that can save todos over cloud.",
+    "image": "open-todo.png",
+    "demo": "https://hafijulali.gitlab.io/open-todo",
+    "source": "https://gitlab.com/hafijulali/open-todo"
+  },
+  {
+    "id": 3,
+    "name": "Apps",
+    "description": "Project aggregator displaying list of other projects.",
+    "image": "apps.png",
+    "demo": "https://hafijulali.gitlab.io/apps",
+    "source": "https://gitlab.com/hafijulali/apps"
+  }
+]
