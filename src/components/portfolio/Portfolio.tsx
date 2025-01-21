@@ -1,12 +1,8 @@
-import * as data from "../../assets/projects.json";
+import data from "../../assets/projects.json";
 
 import "./portfolio.css";
 
 const Portfolio = () => {
-  for (let i = 0; i < data.length; i++) {
-    data[i].image = "";
-    console.log(data[i].image);
-  }
 
   return (
     <section id="portfolio">
@@ -18,7 +14,7 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
-                  <img src={`${image}`} alt={name} key={i} id="card__image" />
+                  <img src={`/src/assets/${image}`} alt={name} key={i} id="card__image" />
                 </div>
                 <h3>{name}</h3>
                 <h5>{description}</h5>
