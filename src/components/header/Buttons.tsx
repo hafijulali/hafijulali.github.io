@@ -1,4 +1,4 @@
-import resume from "../../assets/Sheikh Hafijul Ali's Resume.pdf";
+import resume from "../../../public/assets/Sheikh Hafijul Ali's Resume.pdf";
 
 const Buttons = () => {
   return (

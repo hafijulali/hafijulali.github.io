@@ -1,9 +1,7 @@
-import data from "../../assets/projects.json";
-
+import data from "../../../public/assets/projects.json";
 import "./portfolio.css";
 
 const Portfolio = () => {
-
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
@@ -14,7 +12,7 @@ const Portfolio = () => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
-                  <img src={`/src/assets/${image}`} alt={name} key={i} id="card__image" />
+                  <img src={`/assets/${image}`} alt={name} key={i} id="card__image" />
                 </div>
                 <h3>{name}</h3>
                 <h5>{description}</h5>

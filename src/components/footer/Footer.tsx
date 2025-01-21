@@ -2,7 +2,7 @@ import "./footer.css";
 import { FiInstagram, FiTwitter } from "react-icons/fi";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { RiTelegramLine } from "react-icons/ri";
-import logo from "../../assets/logo-text-animated.gif";
+import logo from "../../../public/assets/logo-text-animated.gif";
 
 const Footer = () => {
   return (
