@@ -60,11 +60,11 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
+            <MdOutlineEmail id="mail" className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>hafijul.dev@gmail.com</h5>
+            <h5>mail@hafijul.dev</h5>
             <a
-              href="mailto:hafijul.dev@gmail.com"
+              href="mailto:mail@hafijul.dev"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,7 +72,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiTelegramLine className="contact__option-icon" />
+            <RiTelegramLine id="tg" className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>Sheikh Hafijul Ali</h5>
             <a
@@ -84,7 +84,7 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
+            <BsWhatsapp id="wa" className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>Sheikh Hafijul Ali</h5>
             <a
