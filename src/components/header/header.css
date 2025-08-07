@@ -44,7 +44,7 @@ header {
   border-radius: 12rem;
 }
 
-.header__profile > .image {
+.header__profile .image {
   border-radius: 100%;
 }
 

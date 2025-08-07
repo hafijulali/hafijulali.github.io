@@ -2,6 +2,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import portrait from "../../../public/assets/long-portrait-self.png";
+import portraitwebp from "../../../public/assets/long-portrait-self.webp";
 import "./about.css";
 
 const About = () => {
@@ -12,7 +13,10 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__portrait_image">
-            <img src={portrait} alt="Portrait"></img>
+            <picture>
+              <source srcSet={portraitwebp} type="image/webp" id="card__image"/>
+              <img src={portrait}  loading="lazy" alt="Portrait" id="card__image"/>
+            </picture>
           </div>
         </div>
 

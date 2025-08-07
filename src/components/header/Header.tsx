@@ -1,5 +1,6 @@
 import Buttons from "./Buttons";
 import profilepicture from "../../../public/assets/profile-picture.jpg";
+import profilepicturewebp from "../../../public/assets/profile-picture.webp";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 
@@ -13,7 +14,10 @@ const Header = () => {
         <Buttons />
         <HeaderSocials />
         <div className="header__profile">
-          <img src={profilepicture} alt="me" className="image"></img>
+          <picture>
+            <source srcSet={profilepicturewebp} type="image/webp" className="image"/>
+            <img src={profilepicture} alt="me" className="image"></img>
+          </picture>
         </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
