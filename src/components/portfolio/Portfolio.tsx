@@ -8,11 +8,14 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {Array.from(data).map(
-          ({ id, name, description, image, demo, source }, i) => {
+          ({ id, name, description, image, webpimage, demo, source }, i) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
-                  <img src={`/assets/${image}`} alt={name} key={i} id="card__image" />
+                  <picture>
+                    <source srcSet={`/assets/${webpimage}`} type="image/webp" id="card__image"/>
+                    <img src={`/assets/${image}`} key={i} loading="lazy" id="card__image"/>
+                  </picture>
                 </div>
                 <h3>{name}</h3>
                 <h5>{description}</h5>

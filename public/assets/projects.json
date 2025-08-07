@@ -4,6 +4,7 @@
     "name": "OpenContacts",
     "description": "A Free and OpenSource contacts app that stores contact in private database.",
     "image": "open-contacts.png",
+    "webpimage":"open-contacts.webp",
     "demo": "",
     "source": "https://gitlab.com/hafijulali/opencontacts"
   },
@@ -12,6 +13,7 @@
     "name": "GoDevOps",
     "description": "Golang app to manage containerd deployments via HTTP RESTful APIs.",
     "image": "godevops.png",
+    "webpimage":"godevops.webp",
     "demo": "",
     "source": "https://gitlab.com/hafijulali/godevops"
   },
@@ -20,6 +22,7 @@
     "name": "Apps",
     "description": "Project aggregator displaying list of other projects.",
     "image": "apps.png",
+    "webpimage":"apps.webp",
     "demo": "https://hafijulali.gitlab.io/apps",
     "source": "https://gitlab.com/hafijulali/apps"
   }
