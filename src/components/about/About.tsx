@@ -19,22 +19,23 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Electronics Engineer</h5>
-              <small>by degree</small>
-            </article>
-
-            <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Electronics</h5>
-              <small>Hobbyist</small>
+              <h5>Software Engineering</h5>
+              <small>problem solver</small>
             </article>
-
+            
+            
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
+              <a href="#portfolio"> <h5>Projects</h5></a>
               <small>software development</small>
             </article>
+            
+            <article className="about__card">
+              <FaAward className="about__icon" />
+              <h5>Techy</h5>
+              <small>passionate</small>
+            </article>           
           </div>
           <p>
             Extremely motivated to constantly develop my skills and grow

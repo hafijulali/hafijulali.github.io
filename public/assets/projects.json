@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "name": "OpenTodo",
-    "description": "A Todo application that can save todos over cloud.",
-    "image": "open-todo.png",
-    "demo": "https://hafijulali.gitlab.io/open-todo",
-    "source": "https://gitlab.com/hafijulali/open-todo"
+    "name": "GoDevOps",
+    "description": "Golang app to manage containerd deployments via HTTP RESTful APIs.",
+    "image": "godevops.png",
+    "demo": "",
+    "source": "https://gitlab.com/hafijulali/godevops"
   },
   {
     "id": 3,
