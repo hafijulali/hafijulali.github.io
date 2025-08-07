@@ -15,7 +15,11 @@ const Header = () => {
         <HeaderSocials />
         <div className="header__profile">
           <picture>
-            <source srcSet={profilepicturewebp} type="image/webp" className="image"/>
+            <source
+              srcSet={profilepicturewebp}
+              type="image/webp"
+              className="image"
+            />
             <img src={profilepicture} alt="me" className="image"></img>
           </picture>
         </div>

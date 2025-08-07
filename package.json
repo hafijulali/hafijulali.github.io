@@ -1,12 +1,12 @@
 {
   "name": "hafijulali.github.io",
   "private": true,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "prebuild": "node scripts/webp.js",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && cp CNAME dist/",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build && cp CNAME dist",

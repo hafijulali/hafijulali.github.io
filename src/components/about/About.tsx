@@ -14,8 +14,17 @@ const About = () => {
         <div className="about__me">
           <div className="about__portrait_image">
             <picture>
-              <source srcSet={portraitwebp} type="image/webp" id="card__image"/>
-              <img src={portrait}  loading="lazy" alt="Portrait" id="card__image"/>
+              <source
+                srcSet={portraitwebp}
+                type="image/webp"
+                id="card__image"
+              />
+              <img
+                src={portrait}
+                loading="lazy"
+                alt="Portrait"
+                id="card__image"
+              />
             </picture>
           </div>
         </div>
@@ -27,19 +36,21 @@ const About = () => {
               <h5>Software Engineering</h5>
               <small>problem solver</small>
             </article>
-            
-            
+
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <a href="#portfolio"> <h5>Projects</h5></a>
+              <a href="#portfolio">
+                {" "}
+                <h5>Projects</h5>
+              </a>
               <small>software development</small>
             </article>
-            
+
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Techy</h5>
               <small>passionate</small>
-            </article>           
+            </article>
           </div>
           <p>
             Extremely motivated to constantly develop my skills and grow

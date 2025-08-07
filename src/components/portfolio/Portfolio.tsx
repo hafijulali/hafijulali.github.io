@@ -13,8 +13,17 @@ const Portfolio = () => {
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
                   <picture>
-                    <source srcSet={`/assets/${webpimage}`} type="image/webp" id="card__image"/>
-                    <img src={`/assets/${image}`} key={i} loading="lazy" id="card__image"/>
+                    <source
+                      srcSet={`/assets/${webpimage}`}
+                      type="image/webp"
+                      id="card__image"
+                    />
+                    <img
+                      src={`/assets/${image}`}
+                      key={i}
+                      loading="lazy"
+                      id="card__image"
+                    />
                   </picture>
                 </div>
                 <h3>{name}</h3>
