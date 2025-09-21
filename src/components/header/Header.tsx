@@ -1,6 +1,6 @@
 import Buttons from "./Buttons";
-import profilepicture from "../../../public/assets/profile-picture.jpg";
-import profilepicturewebp from "../../../public/assets/profile-picture.webp";
+import profilepicture from "../../../public/assets/dummy-profile-picture.jpg";
+import profilepicturewebp from "../../../public/assets/dummy-profile-picture.webp";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 

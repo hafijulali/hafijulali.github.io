@@ -1,8 +1,8 @@
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import portrait from "../../../public/assets/long-portrait-self.png";
-import portraitwebp from "../../../public/assets/long-portrait-self.webp";
+import portrait from "../../../public/assets/dummy-long-portrait-self.png";
+import portraitwebp from "../../../public/assets/dummy-long-portrait-self.webp";
 import "./about.css";
 
 const About = () => {
