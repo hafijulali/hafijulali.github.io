@@ -1,7 +1,7 @@
 import sharp from "sharp";
 import { globby } from "globby";
 import fs from "fs-extra";
-import path from "path";
+
 
 const SOURCE_DIR = "public/assets";
 const IMAGE_GLOB = `${SOURCE_DIR}/**/*.{png,jpg,jpeg}`;
@@ -22,6 +22,16 @@ const convertToWebP = async () => {
       const buffer = await sharp(file).webp({ quality: 75 }).toBuffer();
 
       await fs.writeFile(webpPath, buffer);
+
+      // Project cards never need the full-resolution screenshot on phones.
+      if (["open-contacts.png", "godevops.png", "apps.png"].some((name) => file.endsWith(`/${name}`))) {
+        for (const width of [480, 800]) {
+          await sharp(file)
+            .resize({ width, withoutEnlargement: true })
+            .webp({ quality: 75 })
+            .toFile(webpPath.replace(".webp", `-${width}.webp`));
+        }
+      }
     }),
   );
 

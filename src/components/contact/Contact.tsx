@@ -18,6 +18,12 @@ const Contact = () => {
 
   const sendMail = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (!SERVICE_ID || !USER_ID) {
+      toast.error(
+        "The contact form is not configured yet. Please email mail@hafijul.dev.",
+      );
+      return;
+    }
     const toastId = toast.loading("Please wait... while email is being sent");
     emailjs
       .sendForm(
@@ -97,18 +103,34 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendMail} id="contact-form">
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" required />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            required
-          ></textarea>
+          <label className="field-label">
+            Your name
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Full Name"
+              autoComplete="name"
+              required
+            />
+          </label>
+          <label className="field-label">
+            Email address
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              autoComplete="email"
+              required
+            />
+          </label>
+          <label className="field-label">
+            What would you like to build?
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </label>
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>

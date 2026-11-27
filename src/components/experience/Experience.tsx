@@ -8,6 +8,40 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience__container">
+        <div className="experience__ai">
+          <h3>Artificial Intelligence</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>MCP</h4>
+                <small className="text-light">Advanced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Agent Skills</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Multi-Agent Systems</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>A2A</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
         <div className="experience__frontend">
           <h3>Frontend Technologies</h3>
           <div className="experience__content">
@@ -56,6 +90,15 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <a href="https://go.dev/">
+                  <h4>Golang</h4>
+                </a>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
                 <a href="https://www.python.org/">
                   <h4>Python</h4>
                 </a>
@@ -67,15 +110,6 @@ const Experience = () => {
               <div>
                 <a href="https://nodejs.org">
                   <h4>NodeJS</h4>
-                </a>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <a href="https://go.dev/">
-                  <h4>Golang</h4>
                 </a>
                 <small className="text-light">Intermediate</small>
               </div>
